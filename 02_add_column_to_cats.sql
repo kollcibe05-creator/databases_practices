@@ -3,3 +3,4 @@
 
 -- ALTER TABLE cats ADD COLUMN trainor TEXT
 
+ALTER TABLE cats ADD COLUMN  owner_id INTEGER;
