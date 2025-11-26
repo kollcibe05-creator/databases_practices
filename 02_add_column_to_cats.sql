@@ -1,0 +1,5 @@
+-- ALTER TABLE cats ADD COLUMN breed INTEGER;  
+-- ALTER TABLE cats ADD COLUMN population INT;
+
+-- ALTER TABLE cats ADD COLUMN trainor TEXT
+
