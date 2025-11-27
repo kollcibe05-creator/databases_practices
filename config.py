@@ -5,3 +5,5 @@ db_cursor = db_connection.cursor()
 
 # db_cursor.execute("INSERT INTO cats (name,  breed, age ) VALUES ("Coo-coo", 3, "Majani")")
 db_cursor.execute("INSERT INTO cats (name, breed, age) VALUES ('Maru', 'scottish fold', 3)")
+
+db_cursor.execute("CREATE TABLE IF NOT EXISTS workers (id INTEGER PRIMARY KEY, name TEXT)")
